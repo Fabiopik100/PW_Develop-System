@@ -1,0 +1,53 @@
+body{
+    background: rgb(250,101,61);
+    background: radial-gradient(circle, rgba(250,101,61,1) 0%, rgba(240,162,4,1) 61%, rgba(240,19,4,1) 100%);
+}
+.menu{
+    list-style: none;
+    float:left;
+    background-color: Silver;
+}
+
+  
+
+  header{
+    position: relative;
+    background:#9e9a9d;
+    margin: 0px;
+    padding: 0px;
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+  
+  }
+  
+  ul li{
+    display: inline-block;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+   font-size: 20px;
+    
+  
+  }
+  ul li:hover{
+    background: gray;
+  
+  }
+  
+  
+  ul li:hover ul{
+    display: block;
+  }
+  .card1{
+    background-color:orange;
+    
+  }
+  .um{
+      float: left;
+  }
