@@ -15,10 +15,10 @@
                 <h3>Cadastro</h3>
                 <div class="campos">
 
-                <label> Nome de Completo:</label> <input class="form-control" type="name" name="nome" placeholder="Nome"><br>
-                <label> Numero de Telefone:</label> <input class="form-control" type="tel" name="telefone" placeholder="Telefone"><br>
-                <label> Email:</label> <input class="form-control" type="Gmail" name="email" placeholder="exemplo@gmail.com"><br>
-                <label> Crie uma Senha Forte:</label><input class="form-control" type="password" name="senha" placeholder="Senha"><br>
+                <label> Nome de Completo:</label> <input class="form-control" type="name" name="nome" placeholder="Nome" required><br>
+                <label> Numero de Telefone:</label> <input class="form-control" type="tel" name="telefone" placeholder="Telefone" required><br>
+                <label> Email:</label> <input class="form-control" type="Gmail" name="email" placeholder="exemplo@gmail.com" required><br>
+                <label> Crie uma Senha Forte:</label><input class="form-control" type="password" name="senha" placeholder="Senha" required><br>
                 sexo: <select name="sexo">
                     <option value="M">Masculino</option>
                     <option value="F">Feminino</option>
