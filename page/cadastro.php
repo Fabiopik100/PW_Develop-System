@@ -31,7 +31,7 @@
                
 
                 <button id="buttom"  name="voltar" > <a href="../index.php">Inicio</a> </button>
-                <button id="buttom" name="consultar">Consultar</button>
+              
     </div>
 
 

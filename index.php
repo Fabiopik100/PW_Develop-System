@@ -20,7 +20,7 @@
       <ul class="menu">
         <li><a href="./page/login.php">Login</a></li>
         <li><a href="./page/cadastro.php">Cadastro</a> </li>
-        <li><a href="">Contato</li><br>
+        <li><a href="./page/contato.php">Contato</li><br>
       </ul>
     </div>
     
