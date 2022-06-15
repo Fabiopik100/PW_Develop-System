@@ -16,8 +16,13 @@
         <form class="p-3 mb-2 bg-primary text-white" name="form1" method="post" action="percorrer.php">
             <div class="campos">
                 <h3>Login</h3>
+<<<<<<< HEAD
                 <input class="form-control" type="email" name="email" placeholder="exemplo@gmail.com"><br>
                 <input class="form-control" type="password" name="senha" placeholder="Senha"><br><br>
+=======
+                <input class="form-control" type="email" name="email" placeholder="exemplo@gmail.com" required><br>
+                <input class="form-control" type="password" name="senha" placeholder="Senha" required><br><br>
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
 
             </div>
 
@@ -28,4 +33,8 @@
     </div>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578

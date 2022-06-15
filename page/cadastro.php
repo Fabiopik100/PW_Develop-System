@@ -15,10 +15,17 @@
                 <h3>Cadastro</h3>
                 <div class="campos">
 
+<<<<<<< HEAD
                 <label> Nome de Completo:</label> <input class="form-control" type="name" name="nome" placeholder="Nome"><br>
                 <label> Numero de Telefone:</label> <input class="form-control" type="tel" name="telefone" placeholder="Telefone"><br>
                 <label> Email:</label> <input class="form-control" type="Gmail" name="email" placeholder="exemplo@gmail.com"><br>
                 <label> Crie uma Senha Forte:</label><input class="form-control" type="password" name="senha" placeholder="Senha"><br>
+=======
+                <label> Nome de Completo:</label> <input class="form-control" type="name" name="nome" placeholder="Nome" required><br>
+                <label> Numero de Telefone:</label> <input class="form-control" type="tel" name="telefone" placeholder="Telefone" required><br>
+                <label> Email:</label> <input class="form-control" type="Gmail" name="email" placeholder="exemplo@gmail.com" required><br>
+                <label> Crie uma Senha Forte:</label><input class="form-control" type="password" name="senha" placeholder="Senha" required><br>
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
                 sexo: <select name="sexo">
                     <option value="M">Masculino</option>
                     <option value="F">Feminino</option>
@@ -27,14 +34,26 @@
                 <br><br>
                 </div>
                
+<<<<<<< HEAD
                 <input id="buttom" type="submit" value="Cadastrar" name="cadastrar">
 
                 <button id="buttom"  name="voltar" > <a href="../index.php">Inicio</a> </button>
                 <button id="buttom" name="consultar">Consultar</button>
+=======
+                <input id="buttom" type="submit" value="Cadastrar" name="cadastrar" >
+               
+
+                <button id="buttom"  name="voltar" > <a href="../index.php">Inicio</a> </button>
+              
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
     </div>
 
 
     </form>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578

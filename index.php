@@ -11,6 +11,7 @@
 
 <body>
   <header>
+<<<<<<< HEAD
   <ul class="menu">
         <li><a href="./page/login.php">Login</a></li>
         <li><a href="./page/cadastro.php">Cadastro</a> </li>
@@ -31,6 +32,19 @@
         
       </div>
 
+=======
+  <div class="logo">
+      <h1>TK lanches</h1>
+    </div>
+ </header>
+
+    <div class="menuu">
+      <ul class="menu">
+        <li><a href="./page/login.php">Login</a></li>
+        <li><a href="./page/cadastro.php">Cadastro</a> </li>
+        <li><a href="./page/contato.php">Contato</li><br>
+      </ul>
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
     </div>
     
 </body>

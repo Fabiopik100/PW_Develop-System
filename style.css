@@ -1,5 +1,10 @@
 body{
+<<<<<<< HEAD
   background: linear-gradient(0deg, rgba(223,62,7,1) 0%, rgba(253,202,45,1) 6%, rgba(253,45,45,1) 100%);
+=======
+    background: rgb(250,101,61);
+    
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
     background-repeat: no-repeat;
 
 }
@@ -10,8 +15,22 @@ body{
     text-align: center;
     border-radius: 4px;
     position: fixed;
+<<<<<<< HEAD
     border: 2px solid black;
     z-index: 1000;
+=======
+    z-index: 1000;
+    border: 2px solid black;
+  
+
+}.logo{
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 5px;
+ 
+}
+
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
   
 
 }.logo{
@@ -38,6 +57,7 @@ body{
   
   ul li{
     display: inline-flex;
+<<<<<<< HEAD
   }
   
   ul li a:hover{
@@ -80,3 +100,19 @@ body{
     
   }
  
+=======
+  }
+  
+  ul li a:hover{
+    font-size: 30px;
+    transition: 0.3s;
+    color:greenyellow;
+  
+  }
+  ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size:20px;
+    color:black;
+  }
+>>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578

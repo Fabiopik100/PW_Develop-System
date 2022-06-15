@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(90deg, rgba(250,152,40,1) 39%, rgba(241,224,28,1) 71%, rgba(253,29,29,1) 100%);
+}
+h1{
+    text-align: center;
+
+}
+.qs{
+    text-align: center;
+}
+.contato{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+    backdrop-filter: blur(10px); /* Chrome and Opera */
+    background-color: rgba(255, 255, 255, 0.3);
+   
+}
+
