@@ -8,6 +8,7 @@ h1{
 .qs{
     text-align: center;
 }
+/*folha em cascata para divs de contato*/
 .contato{
     margin-top: 20%;
     margin-left: 5%;
@@ -19,7 +20,7 @@ h1{
     background-color: rgba(255, 255, 255, 0.3);
    
 }
-
+/*Codigos de estilo para o cabeçario do site*/
 header{
   position: relative;
   background: linear-gradient(90deg, rgba(212,131,17,1) 26%, rgba(245,231,11,1) 54%, rgba(255,136,0,1) 100%);
@@ -35,7 +36,7 @@ header{
   z-index: 100;
   top: 0%;
 }
-
+/*Estilo de para o menu de seleção de páginas*/
 .menu{
   text-decoration: none;
   list-style: none;
@@ -72,6 +73,7 @@ ul li a{
   width: 150px;
   margin-left: 45%;
 }
+/*Codigos de estilo para o "pé"/base do site*/
 footer{
 
   background: brown;
