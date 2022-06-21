@@ -1,12 +1,12 @@
 body{
-<<<<<<< HEAD
-  background: linear-gradient(0deg, rgba(223,62,7,1) 0%, rgba(253,202,45,1) 6%, rgba(253,45,45,1) 100%);
-=======
-    background: rgb(250,101,61);
-    
->>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
-    background-repeat: no-repeat;
 
+  background: linear-gradient(0deg, rgba(223,62,7,1) 0%, rgba(253,202,45,1) 6%, rgba(253,45,45,1) 100%);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    
 }
 .menu{
     text-decoration: none;
@@ -15,29 +15,20 @@ body{
     text-align: center;
     border-radius: 4px;
     position: fixed;
-<<<<<<< HEAD
-    border: 2px solid black;
-    z-index: 1000;
-=======
     z-index: 1000;
     border: 2px solid black;
+    padding: 1px;
+    top: 22%;
+    left: 30%;
+    width: 40%;
+    
   
 
 }.logo{
-  text-decoration: none;
-  text-align: center;
   padding-bottom: 5px;
- 
-}
-
->>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
-  
-
-}.logo{
-  text-decoration: none;
-  text-align: center;
-  padding-bottom: 5px;
- 
+  height: 130px;
+  width: 150px;
+  margin-left: 45%;
 }
 
   header{
@@ -45,19 +36,22 @@ body{
     background: linear-gradient(90deg, rgba(212,131,17,1) 26%, rgba(245,231,11,1) 54%, rgba(255,136,0,1) 100%);
     margin: 0px;
     padding: 0px;
-    width: 99%;
+    width: 100%;
     border: 1px solid black;
     border-radius: 5px;
     float: left;
     font-size: 20px;
     font-family: Arial;
     margin-bottom: 50%;
+    position: fixed;
+    z-index: 1000;
+    
   
   }
   
   ul li{
     display: inline-flex;
-<<<<<<< HEAD
+
   }
   
   ul li a:hover{
@@ -76,43 +70,117 @@ body{
     height: 600px;
     width: 500px;
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 90%;
+    left: 15%;
     border-radius: 4px;
     background-image: url(https://img.freepik.com/fotos-gratis/textura-de-placas-de-madeira_1249-169.jpg?w=2000);
     background-size:100%;
+    cursor: pointer;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border:2px solid black;
   }
   #card2{
     height: 600px;
     width: 500px;
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 90%;
+    left: 55%;
     border-radius: 4px;
     background-image: url(https://img.freepik.com/fotos-gratis/textura-de-placas-de-madeira_1249-169.jpg?w=2000);
     background-size:100%;
+    cursor: pointer;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border:2px solid black;
+  }
+  footer{
+
+    background: brown;
+    height: 100px;
+    width:100%;
+    position: absolute;
+    margin-top: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   h1{
-    text-decoration: none;
-    list-style:none;
-    color: black;
-    
+    text-align: center;
+    font-family: Ocean;
   }
+  @font-face {
+    font-family: Ocean;
+    src: url(/fontes/);
+  }
+  .galeria{
+    margin: 20% auto;
+    width: 880px;
+    height: 270px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 14px;
+    margin-top: 20%;
+    left: 22%;
+    background-image: url("./imagens/vetor.jpg");
+
+  }
+  .foto{
+     position: absolute;
+     opacity: 0;
+     animation-name: slide;
+     animation-duration: 30s;
+     animation-iteration-count: infinite;
+     width: 880px;
+     height: 270px;
+     
+     
+  }
+  @keyframes slide{
+     25%{
+         opacity: 1;
+         transform: scale(1.1,1.1);
+     }
+     50%{
+         opacity: 0;
+     }
+  }
+
  
-=======
-  }
-  
-  ul li a:hover{
-    font-size: 30px;
-    transition: 0.3s;
-    color:greenyellow;
-  
-  }
-  ul li a{
-    text-decoration: none;
-    list-style: none;
-    font-size:20px;
-    color:black;
-  }
->>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
+     .foto:nth-child(1){
+      animation-delay:2s;
+     }
+     .foto:nth-child(2){
+     animation-delay:20s;
+     }
+     .foto:nth-child(3){
+     animation-delay: 30s;
+     }
+     .foto:nth-child(4){
+     animation-delay: 40s;
+     }
+     .come{
+        margin-left:10%;
+        height: 100px;
+        border-radius: 3px;
+     }
+     #text{
+       font-size: 20px;
+       left: 20%;
+       background-color: rgba(254, 247, 39, 0.324);
+       border:1px solid black;
+       border-radius: 5px;
+     }
+     #text:hover{
+      font-size: 20px;
+      left: 20%;
+      background-color: rgba(254, 247, 39, 0.824);
+      border:2px solid black;
+      border-radius: 2px;
+      transition: 0.5s;
+    }
+    
+     
+
+
+    

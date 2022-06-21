@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,22 +19,24 @@ html, body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;
 }
-#buttom{
+.buttom{
 	border:none;
 	cursor: pointer;
-
-	background: gray;
 	border-radius: 4px;
-	background-color:aliceblue;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:azure;
   font-size: 40px;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
     </style>
 </head>
 <div class="cdtd">
 
->>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
 <?php
 
 include_once 'conexao.php';
@@ -45,33 +46,27 @@ $email = $_POST['email'];
 $telefone = $_POST['telefone'];
 $senha = $_POST['senha'];
 $sexo = $_POST['sexo'];
-
+ //inserir dados do usuarios para o cadastro
 if($_POST['cadastrar']){
   $sql = "INSERT INTO cadastro_usuario(nome,email,telefone,senha,sexo) VALUES ('$nome','$email','$telefone', '$senha', '$sexo')";
   // $conexao = mysqli_connect($hostname, $usuario, $senha, $bancodedados);
   
   if (mysqli_query($conexao, $sql)) {
-<<<<<<< HEAD
-    echo "Informações confirmadas";
-=======
+
     echo "Obrigado Por Cadastrar-se";
     
->>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578
+
   } else {
     echo "Error: ".$sql."<br>".mysqli_error($conexao);
   }
   mysqli_close($conexao);
 
 }
-<<<<<<< HEAD
- ?>
-=======
  ?>
 
  <br>
  <br>
- <button id="buttom"  name="voltar" > <a href="../index.php">Concluir</a> </button>
+ <button class="buttom"  name="voltar" > <a href="../index.php">Concluir</a> </button>
  </div>
 
 </html>
->>>>>>> 2222afd8872ef9136a62e3c0eac002638ce48578

@@ -9,7 +9,7 @@ h1{
     text-align: center;
 }
 .contato{
-    margin-top: 5%;
+    margin-top: 20%;
     margin-left: 5%;
     margin-right: 5%;
     border: 1px solid black;
@@ -18,5 +18,72 @@ h1{
     backdrop-filter: blur(10px); /* Chrome and Opera */
     background-color: rgba(255, 255, 255, 0.3);
    
+}
+
+header{
+  position: relative;
+  background: linear-gradient(90deg, rgba(212,131,17,1) 26%, rgba(245,231,11,1) 54%, rgba(255,136,0,1) 100%);
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  font-size: 20px;
+  font-family: Arial;
+  position: fixed;
+  z-index: 100;
+  top: 0%;
+}
+
+.menu{
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(90deg, rgba(250,152,40,1) 39%, rgba(241,224,28,1) 71%, rgba(253,29,29,1) 100%);
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  z-index: 1000;
+  border: 2px solid black;
+  padding: 1px;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+}
+ul li{
+  display: inline-flex;
+
+}
+
+ul li a:hover{
+  font-size: 30px;
+  transition: 0.3s;
+  color:greenyellow;
+
+}
+ul li a{
+  font-size:20px;
+  color:black;
+}
+.logo{
+  padding-bottom: 5px;
+  height: 130px;
+  width: 150px;
+  margin-left: 45%;
+}
+footer{
+
+  background: brown;
+  height: 100px;
+  width:100%;
+  position: absolute;
+  margin-top: 30%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  list-style: none;
 }
 
