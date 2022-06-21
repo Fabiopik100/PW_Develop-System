@@ -1,3 +1,4 @@
+/*Códigos de estilo para o corpo da página principal*/
 body{
 
   background: linear-gradient(0deg, rgba(223,62,7,1) 0%, rgba(253,202,45,1) 6%, rgba(253,45,45,1) 100%);
@@ -8,6 +9,7 @@ body{
     margin: 0%;
     
 }
+/*Estilo para menu de seleção de páginas*/
 .menu{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,7 +32,7 @@ body{
   width: 150px;
   margin-left: 45%;
 }
-
+/*Alterações de estilo do cabeçalho*/
   header{
     position: relative;
     background: linear-gradient(90deg, rgba(212,131,17,1) 26%, rgba(245,231,11,1) 54%, rgba(255,136,0,1) 100%);
@@ -66,6 +68,7 @@ body{
     font-size:20px;
     color:black;
   }
+ /*Divs de cardapios, salgados e doces para seleção*/
   #card1{
     height: 600px;
     width: 500px;
@@ -94,8 +97,8 @@ body{
     border-radius: 5px;
     border:2px solid black;
   }
+ /*Estilo para pé/base do site*/
   footer{
-
     background: brown;
     height: 100px;
     width:100%;
@@ -113,6 +116,7 @@ body{
     font-family: Ocean;
     src: url(/fontes/);
   }
+  /*Estilo para transição e Slide Show de imagens*/
   .galeria{
     margin: 20% auto;
     width: 880px;
@@ -159,11 +163,13 @@ body{
      .foto:nth-child(4){
      animation-delay: 40s;
      }
+    /*Alterações dos elementos e texto das divs de cadastro*/
      .come{
         margin-left:10%;
         height: 100px;
         border-radius: 3px;
      }
+     
      #text{
        font-size: 20px;
        left: 20%;
