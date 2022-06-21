@@ -10,13 +10,13 @@ if ($_POST['Entrar']) {
   $consulta = mysqli_query($conexao, $sql);
 
   $login = false;
-
+//valor de email e senha para fazer o login com o usuario
   foreach($consulta as $key => $valor) {
     if ($valor['email'] == $email && $valor['senha'] == $senha) {
       $login = true;
     }
   }
-
+//percorrer login
   if ($login == true) {
     header('location:../index.php');
   }else{
