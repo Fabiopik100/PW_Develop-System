@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+/* Predefinições de estilo do corpo da página de login*/
 html, body{
 	background-color: #0093E9;
 	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 50%, #5960b4 100%);
@@ -9,6 +10,7 @@ html, body{
 	height: 100%;
 	width: 100%;
 }
+/* Estilo para o posicionamento e estilo do formulario de login */ 
 .container{
 	display: flex;
 	align-items: center;
@@ -42,6 +44,7 @@ h3{
     text-align: center;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/*Estilo para os botões da página de formulário*/
 #botao{
 	text-decoration: none;
 	border:none;
