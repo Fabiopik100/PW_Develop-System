@@ -51,11 +51,11 @@
         <p  id="text"><img class="come" src=https://st2.depositphotos.com/4687049/6972/i/600/depositphotos_69727173-stock-photo-brazilian-sweet-brigadeiro.jpg>Brigadeiros de chocolate com granulados por toda parte<br><br>
         <input type="checkbox" id="horns" name="horns">adicionar ao carrinho.</p></p>
       </div>
-
+      <! -- Base do site com direitos de Copyright  -->
     <footer>
       <p>Copyright<img src="https://www.imagensempng.com.br/wp-content/uploads/2021/09/07-3.png"  height="15px"> Todos os direitos reservados</p>
    </footer>
-
+     <! -- menu da página principal -->
    <nav class="menu" >
       <ul>
         <li><a href="./page/login.php">Login</a></li>
