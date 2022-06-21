@@ -13,7 +13,7 @@
    
      <img class="logo" src="../imagens/logo.png" >
      </header>
-
+        <!-- Divs de contato e sessão de sobre nós -->
         <div class="contato">
 
         <h1>Entre Em Contato Conosco</h1>
@@ -28,11 +28,11 @@
          
         <h2 class="qs">Quem somos?</h2>   
 
-
+       <!-- Base do site com direitos de Copyright -->
         <footer>
           <p>Copyright<img src="https://www.imagensempng.com.br/wp-content/uploads/2021/09/07-3.png"  height="15px"> Todos os direitos reservados</p>
        </footer>
-
+    <!-- Menu pricipal de seleção de paginas -->
         <nav>
         <ul class="menu">
            <li><a href="login.php">Login</a></li>
